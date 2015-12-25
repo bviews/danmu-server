@@ -1,6 +1,7 @@
 FROM node:4.1.1
 MAINTAINER zsx <zsx@zsxsoft.com> 
 
+RUN apt-get update
 
 ## Install memcached
 RUN apt-get install -y memcached
